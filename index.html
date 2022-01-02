@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" placeholder="Search..." class="search" />
+      <div class="space">
+        <span class="city">Hanoi</span> , <span class="country">VN</span>
+      </div>
+      <div class="time">
+        <span class="clocks">13:50:20</span> ,
+        <span class="date">2/1/2022</span>
+      </div>
+      <div class="temperature"><span>21</span> <sup>o</sup>C</div>
+      <div class="short-desc">Clouds</div>
+      <div class="more-desc">
+        <div class="visibility">
+          <ion-icon name="eye-outline"></ion-icon> <span></span>
+        </div>
+        <div class="wind">
+          <ion-icon name="logo-soundcloud"></ion-icon><span></span>
+        </div>
+        <div class="cloud">
+          <ion-icon name="partly-sunny-outline"></ion-icon><span></span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="./app.js"></script>
+</html>

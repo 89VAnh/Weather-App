@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #fff;
+}
+.container {
+  width: 350px;
+  height: 600px;
+  padding: 30px 20px;
+
+  border-radius: 10px;
+  text-align: center;
+}
+.search {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 0 15px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.search:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px 0;
+}
+.space {
+  margin: 40px 0 8px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.space span {
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.temperature {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+  font-size: 65px;
+  border-radius: 10px;
+  margin: 30px;
+  font-weight: 800;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+}
+.short-desc {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.more-desc {
+  display: flex;
+  justify-content: space-around;
+}
+.more-desc ion-icon {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.more-desc div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
